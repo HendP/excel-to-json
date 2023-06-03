@@ -1,0 +1,4 @@
+[
+  { "Type": "Sedan", "Dealership": { "us": [{ "location": "New York" }, { "location": "Dallas" }], "jp": [{ "location": "Tokyo" }] } },
+  { "Type": "SUV", "Dealership": { "us": [{ "location": "Ohio" }, { "location": "" }], "jp": [{ "location": "Osaka" }] } }
+]
