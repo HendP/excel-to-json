@@ -7,14 +7,16 @@ const fs = require('fs');
 console.log(doc[0]);
 
 const jsonString = JSON.stringify(doc[0]);
-console.log(jsonString)
-// const filePath = 'output.json';
 
-// fs.writeFile(filePath, jsonString, 'utf8', (err) => {
-//     if (err) {
-//       console.error('An error occurred while writing to file:', err);
-//       return;
-//     }
-//     console.log('JSON data has been written to', filePath);
-//   });
+console.log(jsonString)
+
+const filePath = 'output.json';
+
+fs.writeFile(filePath, jsonString, 'utf8', (err) => {
+    if (err) {
+      console.error('An error occurred while writing to file:', err);
+      return;
+    }
+    console.log('JSON data has been written to', filePath);
+  });
   
